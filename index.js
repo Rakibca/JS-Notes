@@ -52,12 +52,12 @@ let index = email.indexOf('@');
 console.log('index of the @ sign:', index);
 // ======================================================
 // 10 - common string methods
-let email = 'mario@thenetninja.co.uk';
-let result = email.lastIndexOf('n');
-let result = email.slice(0, 5);
-let result = email.substr(5, 12);
-let result = email.replace('m', 'w');
-let result = email.replace('n', 'w');
+email = 'mario@thenetninja.co.uk';
+result = email.lastIndexOf('n');
+result = email.slice(0, 5);
+result = email.substr(5, 12);
+result = email.replace('m', 'w');
+result = email.replace('n', 'w');
 console.log(result);
 // ======================================================
 // 11 - numbers
@@ -67,15 +67,15 @@ console.log(radius, pi);
 
 // math operators - +, -, *, /, **, %
 console.log(10 / 2);
-let result = radius % 3;
-let result = pi * radius ** 2;
+result = radius % 3;
+result = pi * radius ** 2;
 
 // order of operation - B I D M A S
-let result = 5 * (10 - 3) ** 2;
+result = 5 * (10 - 3) ** 2;
 console.log(result);
 
 // shorthands
-let likes = 10;
+likes = 10;
 likes = likes + 1;
 likes++;
 likes = likes + 10;
@@ -87,7 +87,7 @@ console.log(likes);
 // NaN - not a number
 console.log(5 / 'hello');
 console.log(5 * 'hello');
-let result = 'the blog has ' + likes + ' likes.';
+result = 'the blog has ' + likes + ' likes.';
 console.log(result);
 // ======================================================
 // 12 - template strings
@@ -97,12 +97,12 @@ const author = 'Mario';
 const likes = 30;
 
 // concatenation way
-let result =
+result =
   'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
 console.log(result);
 
 // template string way
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
+result = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
 
 // creating html templates
@@ -130,11 +130,12 @@ console.log(random);
 console.log(ninjas.length); // 3
 
 // array methods
-let result = ninjas.join(',');
-let result = ninjas.indexOf('chun-li');
-let result = ninjas.concat(['ken', 'crystal']);
-let result = ninjas.push('ken');
-let result = ninjas.pop();
+result = ninjas.join(',');
+result = ninjas.join('-');
+result = ninjas.indexOf('chun-li'); // 2
+result = ninjas.concat(['ken', 'crystal']);
+result = ninjas.push('ken');
+result = ninjas.pop();
 console.log(result);
 console.log(ninjas);
 // ======================================================
