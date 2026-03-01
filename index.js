@@ -140,6 +140,6 @@ console.log(result);
 console.log(ninjas);
 // ======================================================
 // 14 - null & undefined
-age = null;
-console.log(age, age + 3, `the age is ${age}`);
+let myAge;
+console.log(myAge, myAge + 3, `the age is ${myAge}`); // undefined NaN "the age is undefined"
 // ======================================================
