@@ -139,3 +139,7 @@ result = ninjas.pop();
 console.log(result);
 console.log(ninjas);
 // ======================================================
+// 14 - null & undefined
+age = null;
+console.log(age, age + 3, `the age is ${age}`);
+// ======================================================
