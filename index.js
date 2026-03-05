@@ -151,8 +151,8 @@ console.log(true, false, 'true', 'false');
 // methods can return booleans
 email = 'luigi@thenetninja.co.uk';
 let names = ['mario', 'luigi', 'toad'];
-
 result = email.includes('@');
+console.log(result);
 result = names.includes('luigi');
 console.log(result);
 
@@ -165,7 +165,6 @@ console.log(age > 20);
 console.log(age < 20);
 console.log(age <= 25);
 console.log(age >= 25);
-
 let name = 'shaun';
 console.log(name == 'shaun');
 console.log(name == 'Shaun');
