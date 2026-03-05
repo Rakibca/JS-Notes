@@ -165,10 +165,10 @@ console.log(age > 20);
 console.log(age < 20);
 console.log(age <= 25);
 console.log(age >= 25);
-let name = 'shaun';
-console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal');
-console.log(name > 'Shaun');
-console.log(name > 'Crystal');
+let myName = 'shaun';
+console.log(myName == 'shaun'); // true
+console.log(myName == 'Shaun'); // false
+console.log(myName > 'crystal'); // true
+console.log(myName > 'Shaun'); // true
+console.log(myName > 'Crystal'); // true
 // ======================================================
