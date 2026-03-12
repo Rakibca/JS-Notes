@@ -194,11 +194,16 @@ score = Number(score);
 console.log(score + 1); // 101
 console.log(typeof score); // number
 
-result = Number('hello'); // NaN
+result = Number('hello');
+console.log(result); // NaN
 result = String(50);
+console.log(result, typeof result); // 50 string
 result = Boolean(100);
+console.log(result, typeof result); // true "boolean"
 result = Boolean(0);
+console.log(result, typeof result); // false "boolean"
 result = Boolean('0');
+console.log(result, typeof result); // true "boolean"
 result = Boolean('');
-console.log(result, typeof result);
+console.log(result, typeof result); // false "boolean"
 // ======================================================
