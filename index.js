@@ -187,3 +187,17 @@ console.log(age === '25'); // false
 console.log(age !== 25); // false
 console.log(age !== '25'); // true
 // ======================================================
+// 17 - type conversion
+let score = '100';
+score = Number(score);
+console.log(score + 1);
+console.log(typeof score);
+
+result = Number('hello');
+result = String(50);
+result = Boolean(100);
+result = Boolean(0);
+result = Boolean('0');
+result = Boolean('');
+console.log(result, typeof result);
+// ======================================================
