@@ -189,11 +189,12 @@ console.log(age !== '25'); // true
 // ======================================================
 // 17 - type conversion
 let score = '100';
+console.log(typeof score); // string
 score = Number(score);
-console.log(score + 1);
-console.log(typeof score);
+console.log(score + 1); // 101
+console.log(typeof score); // number
 
-result = Number('hello');
+result = Number('hello'); // NaN
 result = String(50);
 result = Boolean(100);
 result = Boolean(0);
