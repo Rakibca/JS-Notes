@@ -207,3 +207,15 @@ console.log(result, typeof result); // true "boolean"
 result = Boolean('');
 console.log(result, typeof result); // false "boolean"
 // ======================================================
+// 19 - for loops
+for (let i = 0; i < 5; i++) {
+  console.log('loop: ', i);
+}
+
+const names2 = ['shaun', 'mario', 'luigi'];
+for (let i = 0; i < names2.length; i++) {
+  console.log(names2[i]);
+  let html = `<div>${names2[i]}</div>`;
+  console.log(html);
+}
+// ======================================================
