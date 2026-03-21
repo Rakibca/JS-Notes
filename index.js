@@ -209,8 +209,9 @@ console.log(result, typeof result); // false "boolean"
 // ======================================================
 // 19 - for loops
 for (let i = 0; i < 5; i++) {
-  console.log('loop: ', i);
+  console.log('Loop number: ', i);
 }
+console.log('Loops completed');
 
 const names2 = ['shaun', 'mario', 'luigi'];
 for (let i = 0; i < names2.length; i++) {
