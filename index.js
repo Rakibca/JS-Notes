@@ -220,3 +220,21 @@ for (let i = 0; i < names2.length; i++) {
   console.log(html);
 }
 // ======================================================
+// 20 - while loops
+const names3 = ['shaun', 'mario', 'luigi'];
+let i = 0;
+while (i < 5) {
+  console.log('loop: ', i);
+  i++;
+}
+while (i < names3.length) {
+  console.log(names3[i]);
+  i++;
+}
+
+i = 8;
+while (i > 5) {
+  console.log('loop: ', i);
+  i--;
+}
+// ======================================================
