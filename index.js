@@ -254,7 +254,7 @@ if (age1 > 20) {
 
 const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
 if (ninjas.length > 3) {
-  console.log("that's a lot of ninjas!");
+  console.log("that's a lot of ninjas!"); // use double quotes
 }
 
 const password = 'p@ssword';
