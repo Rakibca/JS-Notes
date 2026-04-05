@@ -264,9 +264,8 @@ if (password.length >= 8) {
 // ======================================================
 // 23 - else if statements
 const password2 = 'p@ssword123456';
-
 if (password2.length >= 12) {
-  console.log('that password is mighty strong');
+  console.log('that password is very strong');
 } else if (password2.length >= 8) {
   console.log('that password is long enough');
 } else {
