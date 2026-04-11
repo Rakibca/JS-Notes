@@ -272,3 +272,17 @@ if (password2.length >= 12) {
   console.log('password should be at least 8 characters long');
 }
 // ======================================================
+// 24 - logical operators
+const password3 = 'p@ss12';
+
+if (password3.length >= 12 && password3.includes('@')) {
+  console.log('that password is mighty strong');
+} else if (
+  password3.length >= 8 ||
+  (password3.includes('@') && password3.length > 5)
+) {
+  console.log('that password is strong enough');
+} else {
+  console.log('that password is not strong enough');
+}
+// ======================================================
