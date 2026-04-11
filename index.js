@@ -274,7 +274,6 @@ if (password2.length >= 12) {
 // ======================================================
 // 24 - logical operators
 const password3 = 'p@ss12';
-
 if (password3.length >= 12 && password3.includes('@')) {
   console.log('that password is mighty strong');
 } else if (
