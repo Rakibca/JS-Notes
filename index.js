@@ -285,14 +285,12 @@ if (password3.length >= 12 && password3.includes('@')) {
   console.log('that password is not strong enough');
 }
 // ======================================================
-// 25 - Logical NOT
+// 25 - logical NOT (!)
 const user = false;
-
 if (!user) {
   // do something
   console.log('you must be logged in to continue');
 }
-
 console.log(!true);
 console.log(!false);
 // ======================================================
