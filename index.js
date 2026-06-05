@@ -309,39 +309,32 @@ for (let i = 0; i < scores.length; i++) {
 // ======================================================
 // 27 - switch statements
 const grade = 'D';
-
 switch (grade) {
   case 'A':
-    console.log('you got an A!');
+    console.log('you got an A grade');
     break;
   case 'B':
-    console.log('you got a B!');
+    console.log('you got a B grade');
     break;
   case 'C':
-    console.log('you got a C!');
+    console.log('you got a C grade');
     break;
   case 'D':
-    console.log('you got a D!');
+    console.log('you got a D grade');
     break;
   case 'E':
-    console.log('you got an E!');
+    console.log('you got an E grade');
     break;
   default:
     console.log('not a valid grade');
 }
 
 // using if statements
-// if(grade === 'A'){
-
-// } else if(grade === 'B'){
-
-// } else if(grade === 'C'){
-
-// } else if(grade === 'D'){
-
-// } else if(grade === 'E'){
-
-// } else {
-
-// }
+if (grade === 'A') {
+} else if (grade === 'B') {
+} else if (grade === 'C') {
+} else if (grade === 'D') {
+} else if (grade === 'E') {
+} else {
+}
 // ======================================================
