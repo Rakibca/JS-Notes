@@ -351,3 +351,14 @@ if (true) {
 }
 console.log('outside code block:', age, name);
 // ======================================================
+// 30 - function declaration
+function greet() {
+  console.log('hello there');
+}
+// function expression
+const speak = function () {
+  console.log('good day!');
+};
+greet();
+speak();
+// ======================================================
