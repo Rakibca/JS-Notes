@@ -357,8 +357,12 @@ function greet() {
 }
 // function expression
 const speak = function () {
-  console.log('good day!');
+  console.log('good day');
 };
 greet();
+greet();
+greet();
+speak();
+speak();
 speak();
 // ======================================================
