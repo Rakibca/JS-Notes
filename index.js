@@ -367,10 +367,15 @@ speak();
 speak();
 // ======================================================
 // 31 - arguments & parameters
-const speak = function (name = 'luigi', time = 'night') {
+const speak = function (name = 'rob', time = 'night') {
   console.log(`good ${time}, ${name}!`);
 };
-// speak('mario', 'morning');
-// speak();
+// 'mario' and 'morning' are arguments
+speak('mario', 'morning');
+
+speak();
+
+// 'rob' is replaced by 'shaun'
+// 'night' is the default value
 speak('shaun');
 // ======================================================
