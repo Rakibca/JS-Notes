@@ -398,13 +398,13 @@ const calcArea = (radius) => 3.14 * radius ** 2;
 const area = calcArea(5);
 console.log('area is:', area);
 
-// Another regular function
+// Another regular function converted to arrow function
 /*const greet = function () {
   return 'hello, world';
 };*/
 const greet = () => 'hello, world';
 
-// Another regular function
+// Another regular function converted to arrow function
 /*const bill = function (products, tax) {
   let total = 0;
   for (let i = 0; i < products.length; i++) {
